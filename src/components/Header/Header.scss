@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1200px;
+    height: 80px;
+    background-color: bisque;
+    border-radius: 15px 50px 30px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 50px;
+    &__log{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    &__nav{
+        margin-top: 8px;
+        display: flex;
+        column-gap: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+}
