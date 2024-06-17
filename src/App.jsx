@@ -32,6 +32,12 @@ export const App = () => {
           <Route path="/content" element={<Content />}></Route>
         </Routes>
       </Suspense>
+      <div> <h1 className='Home'>Home</h1>
+        <ul>
+        {photos.map((el) => (
+          <li key={el.id}><img src={el.url} alt="" /></li>
+        ))}
+      </ul></div>
     </>
   );
 };
